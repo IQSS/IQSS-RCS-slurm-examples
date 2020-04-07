@@ -55,7 +55,7 @@ hello world.
 
 Note that do, math, m, sas will only work on an exec node.
 
-You can run the exampels manually - without the makefile as follows:
+You can run the examples manually - without the makefile as follows:
 
 * If the app has a file ending in *.sh, like, hello.math.sh, this indicates that the language/app doesn't support the typical #! shebang line and requires a wrapper. `hello.math.sh` runs the `hello.math` mathematica script.
 
