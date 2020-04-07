@@ -1,6 +1,6 @@
 r: z_run_r ## Run R hello world.
 py: z_run_py ## Run Python 3.x hello world.
-py2: z_run_py2 ## Run Python 2.x hello world.
+pyt: z_run_pyt ## Run Python 2.x hello world.
 sh: z_run_sh ## Run Bash hello world.
 jl: z_run_jl ## Run Julia hello world.
 do: z_run_do ## Run Stata hello world.
@@ -24,7 +24,7 @@ z_run_py: ## ∟ run py3 [private]
 	$(call log,Running Python 3 hello world.)
 	$(call run,py)
 
-z_run_py2: ## ∟ run py2 [private]
+z_run_pyt: ## ∟ run py2 [private]
 	$(call log,Running Python 2 hello world.)
 	$(call run,py2)
 
