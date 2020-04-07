@@ -9,7 +9,7 @@ sas: z_run_sas ## Run Sas hello world.
 math: z_run_math ## Run Mathematica hello world.
 
 define log
- @echo "\033[92m$(1)\033[0m"
+ @echo "🔺 $(1)"
 endef
 
 define run
