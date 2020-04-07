@@ -38,11 +38,11 @@ z_run_jl: ## ∟ run julia [private]
 
 z_run_do: ## ∟ run stata [private]
 	$(call log,Running Stata hello world.)
-	$(call run,do)
+	$(call run,do.sh)
 
 z_run_m: ## ∟ run matlab [private]
 	$(call log,Running Matlab hello world.)
-	$(call run,m)
+	$(call run,m.sh)
 
 z_run_sas: ## ∟ run sas [private]
 	$(call log,Running SAS hello world.)
@@ -50,7 +50,7 @@ z_run_sas: ## ∟ run sas [private]
 
 z_run_math: ## ∟ run mathematica [private]
 	$(call log,Running Mathematica hello world.)
-	$(call run,math)
+	$(call run,math.sh)
 
 .PHONY: help
 

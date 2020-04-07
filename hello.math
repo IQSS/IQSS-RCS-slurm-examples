@@ -3,16 +3,5 @@
 
 Print["Hello, World!"]
 
-(* Print current Mathematica version *)
-Print["Current Mathematica version is ", $VersionNumber] 
-
-
-Print["Hello, starting plots!"]
-SetOptions[DensityPlot,DisplayFunction->Identity]
-a=Table[DensityPlot[Sin[Sqrt[x^2 + y^2]]^2/(.001 + x^2 + y^2), {x, -13, 13}, {y, -13, 13}\
-, Mesh ->  False, PlotPoints -> 300], {i, 1, 20}]
-Do[Export["a"<>ToString[i]<>".eps",a[[i]]],{i,1,20}]
-
-
 (* Exit from the program *)
 Exit[]
