@@ -46,7 +46,7 @@ z_run_m: ## ∟ run matlab [private]
 
 z_run_sas: ## ∟ run sas [private]
 	$(call log,Running SAS hello world.)
-	$(call run,sas)
+	$(call run,sas.sh)
 
 z_run_math: ## ∟ run mathematica [private]
 	$(call log,Running Mathematica hello world.)
