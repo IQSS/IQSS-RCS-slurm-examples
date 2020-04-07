@@ -1,12 +1,12 @@
-r: run_r ## Run R hello world.
-py: run_py ## Run Python 3.x hello world.
-py2: run_py2 ## Run Python 2.x hello world.
-sh: run_sh ## Run Bash hello world.
-jl: run_jl ## Run Julia hello world.
-do: run_do ## Run Stata hello world.
-m: run_m ## Run Matlab hello world.
-sas: run_sas ## Run Sas hello world.
-math: run_math ## Run Mathematica hello world.
+r: z_run_r ## Run R hello world.
+py: z_run_py ## Run Python 3.x hello world.
+py2: z_run_py2 ## Run Python 2.x hello world.
+sh: z_run_sh ## Run Bash hello world.
+jl: z_run_jl ## Run Julia hello world.
+do: z_run_do ## Run Stata hello world.
+m: z_run_m ## Run Matlab hello world.
+sas: z_run_sas ## Run Sas hello world.
+math: z_run_math ## Run Mathematica hello world.
 
 define log
  @echo "\033[92m$(1)\033[0m"
@@ -16,39 +16,39 @@ define run
   @find . -name "*.$(1)" -exec {} \;
 endef
 
-run_r: ## run
+z_run_r: ## ∟ run r [private]
 	$(call log,Running R hello world.)
 	$(call run,R)
 
-run_py: ## run
+z_run_py: ## ∟ run py3 [private]
 	$(call log,Running Python 3 hello world.)
 	$(call run,py)
 
-run_py2: ## run
+z_run_py2: ## ∟ run py2 [private]
 	$(call log,Running Python 2 hello world.)
 	$(call run,py2)
 
-run_sh: ## run
+z_run_sh: ## ∟ run bash [private]
 	$(call log,Running bash hello world.)
 	$(call run,sh)
 
-run_jl: ## run
+z_run_jl: ## ∟ run julia [private]
 	$(call log,Running Julia hello world.)
 	$(call run,jl)
 
-run_do: ## run
+z_run_do: ## ∟ run stata [private]
 	$(call log,Running Stata hello world.)
 	$(call run,do)
 
-run_m: ## run
+z_run_m: ## ∟ run matlab [private]
 	$(call log,Running Matlab hello world.)
 	$(call run,m)
 
-run_sas: ## run
+z_run_sas: ## ∟ run sas [private]
 	$(call log,Running SAS hello world.)
 	$(call run,sas)
 
-run_math: ## run
+z_run_math: ## ∟ run mathematica [private]
 	$(call log,Running Mathematica hello world.)
 	$(call run,math)
 
