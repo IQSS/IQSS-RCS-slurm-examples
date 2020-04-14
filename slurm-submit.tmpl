@@ -7,8 +7,8 @@
 #SBATCH -p serial_requeue # Partition to submit to
 #SBATCH --mem=100 # Memory per cpu in MB (see also –mem-per-cpu)
 #SBATCH --open-mode=append
-#SBATCH -o hostname_%j.out # Standard out goes to this file
-#SBATCH -e hostname_%j.err # Standard err goes to this filehostname
+#SBATCH -o %x_%j.out # Standard out goes to this file
+#SBATCH -e %x_%j.err # Standard err goes to this filehostname
 # Commands to run go on next lines:
 
 
