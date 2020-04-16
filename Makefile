@@ -30,7 +30,7 @@ z_run_pyt: ## ∟ run py2 [private]
 
 z_run_sh: ## ∟ run bash [private]
 	$(call log,Running bash hello world.)
-	$(call run,sh)
+	$(call run,hello.sh)
 
 z_run_jl: ## ∟ run julia [private]
 	$(call log,Running Julia hello world.)
