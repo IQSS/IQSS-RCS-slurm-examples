@@ -1,6 +1,6 @@
 # IQSS-RCS-slurm-examples
 
-The following includes "Hello World" for  common statistics packages in use at IQSS.
+This repository includes "Hello World" scripts to run IQSS statistics packages on a slurm cluster.
 
 * Matlab
 * Mathematica
