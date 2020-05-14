@@ -1,6 +1,6 @@
-# hpchellos
+# IQSS-RCS-slurm-examples
 
-The following includes "Hello World" for the common HPC apps.
+The following includes "Hello World" for  common statistics packages in use at IQSS.
 
 * Matlab
 * Mathematica
