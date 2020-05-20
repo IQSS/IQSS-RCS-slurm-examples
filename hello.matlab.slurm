@@ -16,4 +16,3 @@ module load matlab/R2018b-fasrc01
 
 # To submit the job:
 # sbatch hello.matlab.slurm
-
