@@ -12,13 +12,12 @@
 # And here: https://docs.rc.fas.harvard.edu/kb/running-jobs/
 # Will need to request more than 100MB for some jobs in this repo
 
-
 # Commands to run go on next lines
 # Start by loading module(s) for your application:
-load #myapplicationmodule(s)
+load     # put my application module(s) here
 
 # Run the application
 
 
 # To submit this job:
-# sbatch <thisfile>
+# sbatch basicbatch.slurm
