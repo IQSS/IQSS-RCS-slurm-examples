@@ -2,14 +2,15 @@
 
 ### This repository includes "Hello World" scripts to run IQSS statistics packages on a slurm cluster.
 
+* Bash
+* Julia
 * Matlab
 * Mathematica
-* R
-* Bash
-* SAS
-* Julia
-* Python 3
 * Python 2
+* Python 3
+* R
+* SAS
+* Stata
 
 This repository is still a work in progress.  Your mileage may vary.
 
