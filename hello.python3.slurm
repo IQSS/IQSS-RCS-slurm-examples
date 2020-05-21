@@ -10,6 +10,7 @@
 # Commands to run go on next lines:
 
 module load python/3.6.3-fasrc02
+chmod u+x ./hello.py
 ./hello.py
 
 # To submit the job:
