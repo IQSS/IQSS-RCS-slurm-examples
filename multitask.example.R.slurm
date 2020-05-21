@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -J multitask.example # A single jobname for the array of jobs
-#SBATCH -n 1 # Number of cores
+#SBATCH -n 5 # Number of cores
 #SBATCH -N 1 # Ensure that all cores are on one machine
 #SBATCH -p serial_requeue # Partition to submit to
 #SBATCH --mem=4000 # 4GB
