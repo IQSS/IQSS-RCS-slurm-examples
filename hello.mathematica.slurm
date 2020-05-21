@@ -10,7 +10,7 @@
 # Commands to run go on next lines:
 
 module load mathematica/11.3.0-fasrc01
-/usr/bin/env math -noprompt -run "<< ./hello.math" # Run mathematica hello world.
+math -noprompt -run "<< ./hello.math" # Run mathematica hello world.
 
 # To submit the job:
 # sbatch hello.mathematica.slurm
