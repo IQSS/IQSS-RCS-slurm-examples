@@ -9,6 +9,7 @@
 #SBATCH -e %x_%j.err # Standard err goes to this file
 # Commands to run go on next lines:
 module load julia/1.1.1-fasrc01
+chmod +x ./hello.jl
 ./hello.jl
 
 # To submit the job:
