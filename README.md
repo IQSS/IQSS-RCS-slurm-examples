@@ -18,6 +18,8 @@ This repository is still a work in progress.  Your mileage may vary.
 * They must come after the initial shebang (!#) line if there is one.  
 * The lines should begin with #SBATCH.
 * #SBATCH settings should come before any comments or they may not work.
+* %x is the job name
+* %j is the job id
 
 Typical #SBATCH lines include:<p>
 `#SBATCH -n 1 # Number of cores requested; default: 1`<p>
