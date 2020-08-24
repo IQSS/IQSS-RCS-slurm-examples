@@ -30,7 +30,7 @@ Typical #SBATCH lines include:<p>
 `#SBATCH -e %x_%j.err # Standard err goes to this file; default: slurm-JOBID.err`<p>
 
 
-* More info here: 
+#### More info here: 
 * https://docs.rc.fas.harvard.edu/kb/quickstart-guide/#Run_a_batch_job8230
 * https://docs.rc.fas.harvard.edu/kb/running-jobs/
 * https://slurm.schedmd.com/srun.html
