@@ -37,3 +37,5 @@ Typical #SBATCH lines include:<p>
 * https://docs.rc.fas.harvard.edu/kb/running-jobs/
 * https://slurm.schedmd.com/srun.html
 
+#### More complex examples can be found here:
+https://github.com/fasrc/User_Codes
