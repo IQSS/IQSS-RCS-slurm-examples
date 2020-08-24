@@ -18,6 +18,8 @@ This repository is still a work in progress.  Your mileage may vary.
 * They must come after the initial shebang (!#) line if there is one.  
 * The lines should begin with #SBATCH.
 * #SBATCH settings should come before any comments or they may not work.
+* %x is the job name
+* %j is the job id
 
 Typical #SBATCH lines include:<p>
 `#SBATCH -n 1 # Number of cores requested; default: 1`<p>
@@ -30,5 +32,8 @@ Typical #SBATCH lines include:<p>
 `#SBATCH -e %x_%j.err # Standard err goes to this file; default: slurm-JOBID.err`<p>
 
 
-* More info here: https://docs.rc.fas.harvard.edu/kb/quickstart-guide/#Run_a_batch_job8230
-* And here: https://docs.rc.fas.harvard.edu/kb/running-jobs/
+#### More info here: 
+* https://docs.rc.fas.harvard.edu/kb/quickstart-guide/#Run_a_batch_job8230
+* https://docs.rc.fas.harvard.edu/kb/running-jobs/
+* https://slurm.schedmd.com/srun.html
+
