@@ -8,11 +8,6 @@
 #SBATCH -o %x_%j.out # Standard out goes to this file; default: slurm-JOBID.out
 #SBATCH -e %x_%j.err # Standard err goes to this file; default: slurm-JOBID.err
 
-# More info here: 
-# https://docs.rc.fas.harvard.edu/kb/quickstart-guide/#Run_a_batch_job8230
-# https://docs.rc.fas.harvard.edu/kb/running-jobs/
-# https://slurm.schedmd.com/srun.html
-#
 # Will need to request more than 100MB for some jobs in this repo
 
 # Commands to run go on next lines
