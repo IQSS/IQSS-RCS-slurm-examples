@@ -31,3 +31,6 @@ chmod u+x $SCRIPT
 echo "Running: srun -n $SLURM_NTASKS -c $SLURM_CPUS_PER_TASK bash $SCRIPT"
 srun -n $SLURM_NTASKS -c $SLURM_CPUS_PER_TASK bash $SCRIPT
 rm -f $SCRIPT
+
+# To submit the job:
+# sbatch multicore.slurm
