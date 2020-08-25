@@ -26,6 +26,7 @@ print_info() {
 }
 print_info
 EOF
+chmod u+x $SCRIPT
 # jobs of more than one task and/or more than one core must be run through srun
 echo "Running: srun -n $SLURM_NTASKS -c $SLURM_CPUS_PER_TASK bash $SCRIPT"
 srun -n $SLURM_NTASKS -c $SLURM_CPUS_PER_TASK bash $SCRIPT
