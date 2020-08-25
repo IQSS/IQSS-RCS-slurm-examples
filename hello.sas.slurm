@@ -10,9 +10,9 @@
 # Commands to run go on next lines:
 
 module load sas/9.4-fasrc01
-/usr/bin/env sas -sysin ./helloworld.sas -nonews -nonotes -nosource -nocpuid # run a sas job
-cat helloworld.log
-rm helloworld.log
+sas -sysin ./hello.sas -nonews -nonotes -nosource -nocpuid # run a sas job
+cat ./hello.log
+rm ./hello.log
 
 # To submit the job:
 # sbatch hello.sas.slurm
