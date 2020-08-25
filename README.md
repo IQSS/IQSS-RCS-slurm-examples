@@ -1,4 +1,4 @@
-# IQSS-RCS-slurm-examples
+# IQSS-slurm-examples
 
 ### This repository includes "Hello World" scripts to run IQSS statistics packages on a slurm cluster.
 
