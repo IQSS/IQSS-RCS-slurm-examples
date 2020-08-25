@@ -10,7 +10,7 @@
 
 # Commands to run go on next lines:
 module load stata/14.0-fasrc01
-/usr/bin/env stata-se -q < ./hello.do
+stata-se -q < ./hello.do
 
 # To submit the job:
 # sbatch hello.stata-se.slurm
