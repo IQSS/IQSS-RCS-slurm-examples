@@ -18,6 +18,7 @@
 * #SBATCH settings should come before any comments or they may not work.
 * %x is the name of the file used to submit the job
 * %j is the job id number
+* when running a job array, %A is the overall job id, %a is the array index number
 
 Typical #SBATCH lines include:<p>
 `#SBATCH -n 1 # Number of cores requested; default: 1`<p>
