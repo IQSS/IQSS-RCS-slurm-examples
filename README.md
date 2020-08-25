@@ -12,8 +12,6 @@
 * SAS
 * Stata
 
-This repository is still a work in progress.  Your mileage may vary.
-
 #### Scripts for submitting jobs to slurm can specify slurm settings starting at the beginning of the script.
 * They must come after the initial shebang (!#) line if there is one.  
 * The lines should begin with #SBATCH.
