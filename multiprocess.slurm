@@ -37,3 +37,6 @@ EOF
 echo "Running: srun -n $SLURM_NTASKS -c $SLURM_CPUS_PER_TASK -N $SLURM_JOB_NUM_NODES bash $SCRIPT"
 srun -n $SLURM_NTASKS -c $SLURM_CPUS_PER_TASK -N $SLURM_JOB_NUM_NODES bash $SCRIPT
 rm -f $SCRIPT
+
+# To submit the job:
+# sbatch multiprocess.slurm
