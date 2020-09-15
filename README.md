@@ -1,5 +1,10 @@
 # IQSS-slurm-examples
 
+## This repository has been added to this one: https://github.com/fasrc/User_Codes so this original will no longer be developed.
+## It will be archived for that reason.
+
+
+
 ### This repository includes "Hello World" scripts to run IQSS statistics packages on a slurm cluster.
 
 * Bash
